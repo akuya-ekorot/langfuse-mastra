@@ -2,6 +2,7 @@ import { Mastra } from "@mastra/core";
 import { LangfuseExporter } from "langfuse-vercel";
 import { chefAgent } from "./agents/chefAgent";
 
+// mastra instance
 export const mastra = new Mastra({
   agents: { chefAgent },
   telemetry: {
